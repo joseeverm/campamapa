@@ -10,7 +10,7 @@ export default function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/campamapa" element={<Mapa />} />
+        <Route path="/" element={<Mapa />} />
         <Route path="/campistas" element={<Campistas />} />
         <Route path="/agregar" element={<AgregarCampista />} />
         <Route path="/campista/:id" element={<PerfilCampista />} />

@@ -71,7 +71,7 @@ export default function AgregarCampista() {
     }
 
     saveCampista(campista)
-    navigate('/campamapa')
+    navigate('/')
   }
 
   return (

@@ -10,7 +10,7 @@ export default function Navbar() {
   const { pathname } = useLocation()
 
   const links = [
-    { to: '/campamapa', text: 'Mapa', Icon: MapIconOutline, IconActive: MapIcon },
+    { to: '/', text: 'Mapa', Icon: MapIconOutline, IconActive: MapIcon },
     { to: '/campistas', text: 'Campistas', Icon: UsersIconOutline, IconActive: UsersIcon },
     { to: '/agregar', text: 'Agregar', Icon: PlusCircleIconOutline, IconActive: PlusCircleIcon },
   ]
