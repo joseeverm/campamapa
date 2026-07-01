@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-forest-50 text-forest-900 font-sans;
+  }
+
+  a {
+    @apply no-underline;
+  }
+}
+
+#root {
+  padding-top: 56px;
+  padding-bottom: 68px;
+}
+
+/* Popups de Leaflet siguen la identidad visual de la app */
+.leaflet-popup-content-wrapper {
+  @apply rounded-xl shadow-card p-0 overflow-hidden;
+}
+
+.leaflet-popup-content {
+  @apply m-0;
+}
+
+.leaflet-popup-tip {
+  @apply bg-white;
+}
